@@ -32,6 +32,7 @@ namespace WinForms1
             }
             monthCalendar1.UpdateBoldedDates();
             tasks.Sort();
+            ShowTasks();
         }
 
         private void button1_Click(object sender, EventArgs e)
